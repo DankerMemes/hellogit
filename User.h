@@ -6,8 +6,8 @@
 class User {
 
 private:
-std::string name;
-int ID;
+std::string Username;
+int UserID;
 
 public:
 	User (std::string name, int ID);

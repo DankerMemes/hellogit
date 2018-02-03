@@ -11,7 +11,7 @@ void User::setName(std::string name){
 }
 
 std::string User::getName(){
-	return name;
+	return Username;
 }
 
 void User::setID(int ID){
@@ -19,5 +19,5 @@ void User::setID(int ID){
 }
 
 int User::getID(){
-	return ID;
+	return UserID;
 }
