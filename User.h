@@ -16,3 +16,4 @@ public:
 	void setID(int ID);
 	int getID();
 };
+#endif
