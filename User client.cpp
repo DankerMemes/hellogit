@@ -11,43 +11,46 @@ int main(){
 	User Info2;
 	User Info3;
 	User Info4;
-	vector <User> UserInfo
+	vector<User> UserInfo;
 	
 	cout << "Enter Username";
-	getline(cin, name);	
-	cout << "Enter identification number"
+	getline(cin, name);
+	cout << "Enter identification number";
 	cin >> ID;
 
 	Info1.setName(name);
 	Info1.setID(ID);
-	UserInfo.push_back(Info1)
+	UserInfo.push_back(Info1);
+
 	cout << "Enter Username";
 	getline(cin, name);	
-	cout << "Enter identification number"
+	cout << "Enter identification number";
 	cin >> ID;
 
 	Info2.setName(name);
 	Info2.setID(ID);
-	UserInfo.push_back(Info2)
+	UserInfo.push_back(Info2);
+
 	cout << "Enter Username";
-	getline(cin, name);	
-	cout << "Enter identification number"
+	getline(cin, name);
+	cout << "Enter identification number";
 	cin >> ID;
 
 	Info3.setName(name);
 	Info3.setID(ID);
-	UserInfo.push_back(Info3)
+	UserInfo.push_back(Info3);
+
 	cout << "Enter Username";
-	getline(cin, name);	
-	cout << "Enter identification number"
+	getline(cin, name);
+	cout << "Enter identification number";
 	cin >> ID;
 
-	Info4.setName(name);
+;	Info4.setName(name);
 	Info4.setID(ID);
-	UserInfo.push_back(Info4)
+	UserInfo.push_back(Info4);
 
 	for(int i=0; UserInfo.size(); i++){
-	cout << "Person" << i << " name is " UserInfo[i].getName() << "and ID number is " << 		UserInfo[i].getID();
+	cout << "Person" << i << "\nname is" << UserInfo[i].getName() << " \n and ID number is" << UserInfo[i].getID() << endl;
 	}
 }
 

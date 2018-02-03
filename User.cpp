@@ -1,16 +1,18 @@
 //User.cpp
 #include "User.h"
 #include <string>
-User::User(std::string name, int ID){
-	Username = name;
-	UserID = ID;
+using namespace std;
+User::User(){
+	Username = "placeholder";
+	UserID = -1;
+	
 }
 
-void User::setName(std::string name){
+void User::setName(string name){
 	Username = name;
 }
 
-std::string User::getName(){
+string User::getName(){
 	return Username;
 }
 
